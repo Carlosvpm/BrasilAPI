@@ -1,9 +1,7 @@
 import app from '@/app';
-
 import BaseError from '@/errors/BaseError';
 import InternalError from '@/errors/InternalError';
 import NotFoundError from '@/errors/NotFoundError';
-
 import { getDddsData } from '@/services/ddd';
 
 async function citiesOfDdd(request, response, next) {
